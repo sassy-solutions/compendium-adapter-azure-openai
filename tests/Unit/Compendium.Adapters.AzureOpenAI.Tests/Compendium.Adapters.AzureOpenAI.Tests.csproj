@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>Compendium.Adapters.AzureOpenai.Tests</AssemblyName>
-    <RootNamespace>Compendium.Adapters.AzureOpenai.Tests</RootNamespace>
+    <AssemblyName>Compendium.Adapters.AzureOpenAI.Tests</AssemblyName>
+    <RootNamespace>Compendium.Adapters.AzureOpenAI.Tests</RootNamespace>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Compendium.Adapters.AzureOpenai\Compendium.Adapters.AzureOpenai.csproj" />
+    <ProjectReference Include="..\..\..\src\Compendium.Adapters.AzureOpenAI\Compendium.Adapters.AzureOpenAI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +22,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="FluentAssertions" />
     <PackageReference Include="NSubstitute" />
+    <PackageReference Include="RichardSzalay.MockHttp" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
     <PackageReference Include="Microsoft.Extensions.Configuration" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" />
