@@ -17,7 +17,7 @@
 
   <!-- Azure auth — TokenCredential for Entra ID (managed identity, service principal, dev tooling). -->
   <ItemGroup>
-    <PackageVersion Include="Azure.Identity" Version="1.13.1" />
+    <PackageVersion Include="Azure.Identity" Version="1.21.0" />
   </ItemGroup>
 
   <!-- Production runtime -->
